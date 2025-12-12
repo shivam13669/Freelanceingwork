@@ -1,0 +1,1396 @@
+﻿.search-trek-container {
+    background-color: #F7F7F7;
+    max-width: 1520px;
+}
+
+.col-md-12.banner-image-column {
+    text-align: center;
+    position: relative;
+}
+
+.banner-image-div {
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    /*position:relative;*/
+}
+
+.banner-image {
+    height: 300px;
+    max-width: 998px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.search-sort-wrapper {
+    position: absolute;
+    /* display: flex; */
+    width: 99%;
+    text-align: center;
+    bottom: -15px;
+}
+
+.search-div {
+    padding: 60px 74px;
+    background-color: #f1f2f2;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+    .search-div form > i {
+        position: absolute;
+        right: 110px;
+        top: 73px;
+        color: #CECECE;
+        font-size: 13px;
+        z-index: 1;
+    }
+
+
+    .search-div > input {
+        font-size: 11px;
+    }
+/*.search-div:nth-child(2){
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left:-20px;
+}*/
+
+.sort-wrapper {
+    padding: 60px 65px 60px 65px;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.sort-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #707070;
+    border-radius: 13px;
+    padding: 3px;
+    padding-left: 13px;
+    position: relative;
+}
+
+    .sort-div > h5 {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0 !important;
+        /*padding-left: 20px;*/
+    }
+
+    .sort-div > input {
+        width: 70%;
+        font-size: 12px;
+    }
+
+.dropdown.sort-div-dropdown > i {
+    position: absolute;
+    right: -27px;
+    top: -11px;
+    font-size: 20px;
+    background: white;
+    padding: 0px 3px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+}
+
+.sort-div > input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.sort-div span > i {
+    padding: 6px 14px;
+}
+
+.dropdown.sort-div-dropdown ul li > a {
+    font-size: 12px;
+}
+
+    .dropdown.sort-div-dropdown ul li > a:active {
+        background-color: transparent;
+    }
+/*
+.dropdown > i {
+    position: absolute;
+    right: -18px;
+    top: -13px;
+    background: white;
+    padding: 5px 8px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+}*/
+
+.form-control.sort-trek:focus {
+    outline: none;
+    border-color: none;
+    box-shadow: none;
+}
+
+.row.search-trek-row {
+    margin-top: 3em;
+    padding: 0 113px;
+}
+
+
+.filter-type-label-css {
+    /*margin-left:10px;*/
+    font-size: 13px;
+}
+
+/*div>label>.brs-level-in-filter {
+    color: #6ABE61;
+}
+*/
+.filter-hr {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+    width: 80%;
+}
+
+/*.filter-type-div + .filter-hr {
+    display: none;
+}*/
+
+.filter-type-heading {
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+    .filter-type-heading:after {
+        content: "";
+        position: absolute;
+        height: 17px;
+        width: 17px;
+        top: 1px;
+        left: -5px;
+        background-color: #7BD277;
+        border-radius: 4px;
+    }
+
+.filter-type-ul {
+    padding: 0;
+    list-style: none;
+}
+
+    .filter-type-ul a {
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+        color: #6F6E6E;
+        position: relative;
+    }
+
+    .filter-type-ul li {
+        margin-bottom: 5px;
+        padding-left: 20px;
+    }
+
+input.filter-checkbox {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -25px;
+    top: 1px;
+}
+
+/*.filter-checkbox-a{
+    position:relative;
+}*/
+
+.brs-level-in-filter-green {
+    color: #6ABE61;
+}
+
+
+.brs-level-in-filter-yellow {
+    color: #C9BE3B;
+}
+
+.brs-level-in-filter-orange {
+    color: #DEA422;
+}
+
+.brs-level-in-filter-red {
+    color: #D05753;
+}
+
+.results-found-and-clear-all-wrapper {
+    display: flex;
+}
+
+.results-found {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6F6E6E;
+    /*margin: 20px 0;*/
+    text-decoration: underline;
+}
+
+.filter-trek-by-button-wrapper {
+    display: flex;
+}
+
+.filter-trek-by-button {
+    border: 1px solid #707070;
+    border-radius: 20px;
+    padding: 3px 15px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+.filter-trek-by-button-div a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: white;
+}
+
+    .filter-trek-by-button-div a > i {
+        color: #73C96F;
+        margin-left: 5px;
+    }
+
+.departure-days-button {
+    border: 1px solid #707070;
+    border-radius: 20px;
+    padding: 6px 20px;
+    margin-right: 22px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: white;
+}
+
+    .departure-days-button > i {
+        color: #73C96F;
+        margin-left: 5px;
+    }
+
+.departure-days a {
+    color: black;
+    text-decoration: none;
+}
+
+    .departure-days a > i {
+        color: #73C96F;
+        margin-left: 5px;
+    }
+/*.col-md-4.trek-card{
+    background-color:white;
+    border-radius:5px;
+}*/
+.row.trek-card-div {
+    /*--bs-gutter-x: 5.5rem;*/
+    margin-top: 3em;
+}
+
+.trek-card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    /*max-width:300px;*/
+    width: 100%;
+    margin-bottom: 5em;
+}
+
+
+/*.trek-card-image-div {
+    padding: 10px 0;
+}*/
+
+
+.trek-card-image {
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.trek-card-heading {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+
+.trek-card-place {
+    font-size: 12px;
+    color: #6F6E6E;
+    margin-bottom: 15px;
+    color: #4A4A4A;
+}
+
+.trek-info-in-card {
+    font-size: 11px;
+    color: #4A4A4A;
+}
+
+    .trek-info-in-card > i {
+        color: #8DC63F;
+    }
+
+.trek-info-in-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.max-alt-trek-card-heading {
+    font-size: 10px;
+    margin-top: 10px;
+    color: #4A4A4A;
+    position: relative;
+}
+
+    .max-alt-trek-card-heading:after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 17px;
+        bottom: -1px;
+        left: 0px;
+        background-color: #4A4A4A;
+        border-radius: 4px;
+    }
+
+
+.max-alt-trek-card {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+    .max-alt-trek-card > i {
+        color: #8DC63F;
+    }
+
+.trek-card-price-and-explore {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.trek-card-price-heading {
+    font-size: 10px;
+    margin: 0;
+    color: #7B7B7B;
+}
+
+
+.trek-card-explore-button {
+    border-radius: 5px;
+    padding: 4px 20px;
+    background-color: #7BD277;
+    background-image: linear-gradient(to right,#81B43E, #7BD277);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+a.trek-card-explore-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.trek-card-percent-off {
+    border-radius: 20px;
+    padding: 2px 20px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #D05A25;
+    border: 2px solid #D05A25;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+a.trek-card-percent-off:hover {
+    color: #D05A25;
+    text-decoration: none;
+}
+
+
+.filter-and-departure-button-div-mobile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.departure-days-button-mobile {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 6px 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: white;
+}
+
+    .departure-days-button-mobile a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .departure-days-button-mobile > i {
+        color: #73C96F;
+    }
+
+    .departure-days-button-mobile:nth-child(2) {
+        border-radius: 20px;
+    }
+
+.col-4.filter-column-mobile {
+    background-color: #f7f7f7;
+    text-align: center;
+    border: 1px solid #707070;
+    z-index: 10000;
+}
+
+.filter-column-mobile-div {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.trek-card-info-div {
+    padding: 0 15px;
+}
+
+.filter-heading-mobile-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.filter-heading-mobile {
+    /*margin-top: 40px;*/
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.clear-all-filter {
+    font-size: 14px;
+    font-weight: 600;
+    color: #7CCA68;
+    text-decoration: underline;
+    /*margin-top: 40px;
+    margin-right:10px;*/
+    margin-left: 20px;
+    cursor:default;
+}
+
+.hr-filter-mobile {
+    width: 90%;
+    color: #707070;
+    margin: 5px 0;
+}
+
+
+.departure-days {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+    margin-top: 40px;
+}
+
+.filter-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dropdown-hr {
+    margin: 10px 0;
+}
+
+.sort-div-dropdown ul.dropdown-menu {
+    /*transform: translate(-212px, 20px) !important;*/
+    min-width: 15rem !important;
+}
+
+/*.dropdown-menu {
+    --bs-dropdown-min-width: 15rem;
+}*/
+
+.trek-card:hover {
+    box-shadow: 0px 0px 3px 5px #d3d3d3;
+}
+
+.trek-card-anchor-wrapper {
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+    .trek-card-anchor-wrapper:hover {
+        color: #4A4A4A;
+    }
+
+#filter-close-btn {
+    text-align: end;
+}
+
+@media screen and (min-width:320px) and (max-width: 576px) {
+    .banner-image-div {
+        padding: 20px;
+    }
+
+    .results-found {
+        text-decoration: underline;
+        /*margin: 40px 0;*/
+        text-align: center;
+    }
+
+    .clear-all-filter {
+        margin-left: 0;
+    }
+
+    .filter-trek-by-button-div {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .search-sort-wrapper {
+        width: 93%;
+        bottom: -20px;
+    }
+
+    .search-div {
+        padding: 25px 30px 25px 30px;
+        padding-right: 0;
+    }
+
+        .search-div form > i {
+            right: 38px;
+            top: 36px;
+            font-size: 11px;
+        }
+
+    .sort-wrapper {
+        /*padding: 27px 15px 29px 16px;*/
+        padding: 27px 25px 29px 20px;
+        margin-left: -5px;
+    }
+
+    .sort-div > i {
+        padding: 1px 3px;
+    }
+
+    .form-control.search-trek {
+        width: 95%;
+        font-size: 12px !important;
+    }
+
+    .form-control.sort-trek {
+        width: 50%;
+        font-size: 7px !important;
+    }
+
+    .row.trek-card-div {
+        padding: 0 10px;
+        margin-top: 0;
+    }
+
+    .trek-card {
+        margin-bottom: 40px;
+    }
+
+    .row.search-trek-row {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .filter-wrapper {
+        position: absolute;
+        top: 19.5em;
+        /*background:white;*/
+        padding: 0 30px;
+        width: 95%;
+    }
+
+    .col-8.col-md-12.filter-type-column {
+        background: white;
+        z-index: 10000;
+        border: 1px solid #707070;
+        border-left: none;
+    }
+
+    .filter-div {
+        margin-top: 15px;
+    }
+
+    .filter-wrapper-mobile {
+        display: none;
+    }
+
+    .hide-filter {
+        display: none;
+    }
+
+    .filter-hr {
+        display: none;
+    }
+
+    .filter-and-departure-button-wrapper-mobile {
+        margin-bottom: 25px;
+    }
+
+    .filter-trek-by-button {
+        margin-bottom: 10px;
+    }
+
+    .fc.fc-media-screen.fc-direction-ltr.fc-theme-standard {
+        width: 100vw !important;
+        right: -11px !important;
+        /*top:36em !important;*/
+        height: 60vh;
+    }
+
+    /* .fc-theme-standard td, .fc-theme-standard th{
+        padding:0 !important;
+    }*/
+
+    .fc-daygrid-day-frame.fc-scrollgrid-sync-inner {
+        margin: 0 !important;
+        border-radius: 5px !important;
+    }
+
+    .fc-daygrid-day-number {
+        font-size: 9px !important;
+    }
+
+    .fc-event-title {
+        font-size: 4px !important;
+        font-weight: 600 !important;
+    }
+
+    .fc-event.fc-event-start.fc-event-end.fc-event-today.fc-bg-event {
+        border-radius: 5px !important;
+    }
+
+
+    .fc-event.fc-event-start.fc-event-end.fc-event-future.fc-bg-event {
+        border-radius: 5px !important;
+    }
+
+
+    .page-item {
+        margin-right: 10px !important;
+    }
+
+
+    .pagination li > a {
+        padding: 5px 10px !important;
+    }
+
+
+    .departure-days-button-mobile > i {
+        margin-left: 7px;
+    }
+
+    .departure-days-button > i {
+        font-size: 17px;
+    }
+
+    .dropdown > i {
+        font-size: 10px;
+        right: -12px;
+        top: -11px;
+        padding: 4px 6px;
+    }
+
+    .fc-event.fc-event-start.fc-event-end.fc-event-past.fc-bg-event {
+        border-radius: 0 !important;
+    }
+
+    .departure-days-button {
+        margin-right: 0;
+    }
+
+    .sort-div {
+        border-radius: 5px;
+        padding: 5px 5px 5px 0px;
+    }
+
+        .sort-div span > i {
+            padding: 0px 10px;
+        }
+
+    .dropdown.sort-div-dropdown > i {
+        font-size: 14px;
+        right: -14px;
+        top: -8px;
+    }
+
+    .departure-days {
+        align-items: center;
+    }
+
+    .departure-days-button-mobile {
+        font-size: 10px;
+    }
+
+    .departure-days-button {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        /*display: none;*/
+    }
+
+    .sort-div-dropdown ul.dropdown-menu {
+        /*transform: translate(15px, 20px) !important;*/
+    }
+
+    .pagination li:not(.active) {
+        display: none;
+    }
+
+    .page-item:first-child {
+        display: block !important;
+    }
+
+    .page-item:last-child {
+        display: block !important;
+    }
+
+    .departure-days {
+        margin-top: 0;
+    }
+
+    .col-md-12.banner-image-column {
+        margin: 4em 0 3em 0;
+    }
+
+    .filter-name-column-mobile {
+        font-size: 9px;
+    }
+
+    .filter-type-heading {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .filter-type-ul li {
+        margin-bottom: 0;
+    }
+
+        .filter-type-ul li a > label {
+            font-size: 9px;
+        }
+
+    input.filter-checkbox {
+        width: 12px;
+        height: 12px;
+        left: -18px;
+        top: 6px;
+    }
+
+    .filter-type-heading:after {
+        height: 12px;
+        width: 12px;
+        top: 1px;
+        left: 2px;
+    }
+
+    .results-found-and-clear-all-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin: 2em 0;
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width:767.9px) {
+
+    .row.search-trek-row {
+        padding: 0 40px;
+    }
+
+    .filter-wrapper {
+        position: absolute;
+        top: 24.5em;
+        background: white;
+        width: 90%;
+    }
+
+    .filter-wrapper-mobile {
+        display: none;
+    }
+
+    .hide-filter {
+        display: none;
+    }
+
+    .filter-hr {
+        display: none;
+    }
+
+    .fc.fc-media-screen.fc-direction-ltr.fc-theme-standard {
+        width: 100vw !important;
+        right: 0 !important;
+        top: 43em;
+    }
+
+    .trek-card {
+        max-width: 300px;
+    }
+
+    .search-sort-wrapper {
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        bottom: 0;
+    }
+
+    .search-div {
+        padding: 30px 40px;
+    }
+
+    .sort-wrapper {
+        padding: 30px 23px;
+    }
+
+    .departure-days {
+        padding: 0;
+    }
+
+    .departure-days-button {
+        margin-right: 0;
+        /*display: none;*/
+    }
+
+    .search-div form > i {
+        right: 50px;
+        top: 38px;
+    }
+
+    .pagination li:not(.active) {
+        display: none;
+    }
+
+    .page-item:first-child {
+        display: block !important;
+    }
+
+    .page-item:last-child {
+        display: block !important;
+    }
+
+    .col-4.filter-column-mobile {
+        z-index: 10000;
+    }
+
+    .col-8.col-md-12.filter-type-column {
+        z-index: 10000;
+        border: 1px solid #707070;
+        border-left: none;
+    }
+
+    .filter-name-column-mobile {
+        font-size: 13px;
+    }
+
+    .filter-heading-mobile {
+        font-size: 14px;
+    }
+
+    .filter-type-heading {
+        font-size: 17px;
+    }
+
+    .filter-type-ul li a > label {
+        font-size: 13px;
+    }
+
+    .hr-filter-mobile {
+        margin: 10px 0;
+    }
+
+    #filter-close-btn {
+        width: 95%;
+    }
+
+    .row.search-trek-row {
+        margin-top: 0;
+    }
+
+    .departure-days-button-mobile > i {
+        margin-left: 7px;
+    }
+
+    .results-found-and-clear-all-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin: 2em 0;
+    }
+
+    .row.trek-card-div {
+        margin-top: 0;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .fc.fc-media-screen.fc-direction-ltr.fc-theme-standard {
+        width: 100vw !important;
+        right: 0 !important;
+        top: 44em;
+    }
+
+    .search-div {
+        padding: 40px;
+    }
+
+    .sort-wrapper {
+        padding: 40px 30px;
+    }
+
+    .search-div form > i {
+        right: 76px;
+        top: 53px;
+    }
+
+    .departure-days {
+        display: block;
+        text-align: end;
+    }
+
+    .row.search-trek-row {
+        padding: 0 20px;
+    }
+
+    .trek-card {
+        max-width: 300px;
+    }
+
+    .departure-days {
+        padding: 0;
+    }
+
+    .departure-days-button {
+        margin-right: 0;
+    }
+
+    #filter-close-btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .departure-days {
+        display: block;
+        text-align: end;
+    }
+
+    .row.search-trek-row {
+        padding: 0 30px;
+    }
+
+    .trek-card {
+        max-width: 300px;
+    }
+
+    .departure-days {
+        padding: 0;
+    }
+
+    .departure-days-button {
+        margin-right: 0;
+    }
+
+    #filter-close-btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+
+    .departure-days {
+        display: block;
+        text-align: end;
+    }
+
+
+    .row.search-trek-row {
+        padding: 0 60px;
+    }
+
+    .trek-card {
+        max-width: 300px;
+    }
+
+    .departure-days {
+        padding: 0;
+    }
+
+    .departure-days-button {
+        margin-right: 22px;
+    }
+
+    #filter-close-btn {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:1401px) {
+
+    .departure-days {
+        display: block;
+        text-align: end;
+    }
+
+    .trek-card {
+        max-width: 300px;
+    }
+
+    #filter-close-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width:577px){
+    #calendar{
+        min-height:500px;
+    }
+}
+
+@media screen and (max-width:477px){
+    #calendar{
+        min-height:450px;
+    }
+}
+
+/*calendar-css Start*/
+:root {
+    --fc-small-font-size: .85em;
+    --fc-page-bg-color: #fff;
+    --fc-neutral-bg-color: rgba(208, 208, 208, 0.3);
+    --fc-neutral-text-color: #808080;
+    --fc-border-color: #ddd;
+    --fc-button-text-color: #fff;
+    --fc-button-bg-color: #2C3E50;
+    --fc-button-border-color: #2C3E50;
+    --fc-button-hover-bg-color: #1e2b37;
+    --fc-button-hover-border-color: #1a252f;
+    --fc-button-active-bg-color: #1a252f;
+    --fc-button-active-border-color: #151e27;
+    --fc-event-bg-color: #3788d8;
+    --fc-event-border-color: #3788d8;
+    --fc-event-text-color: #fff;
+    --fc-event-selected-overlay-color: rgba(0, 0, 0, 0.25);
+    --fc-more-link-bg-color: #d0d0d0;
+    --fc-more-link-text-color: inherit;
+    --fc-event-resizer-thickness: 8px;
+    --fc-event-resizer-dot-total-width: 8px;
+    --fc-event-resizer-dot-border-width: 1px;
+    --fc-non-business-color: rgba(215, 215, 215, 0.3);
+    --fc-bg-event-color: rgb(143, 223, 130);
+    --fc-bg-event-opacity: 1;
+    --fc-highlight-color: rgba(188, 232, 241, 0.3);
+    --fc-today-bg-color: rgba(255, 220, 40, 0.15);
+    --fc-now-indicator-color: red;
+    --fc-list-event-dot-width: 10px;
+    --fc-list-event-hover-bg-color: #f5f5f5;
+    --fc-daygrid-event-dot-width: 8px;
+}
+
+/*#calendar{
+    display:none;
+}*/
+
+
+.calendarWrap {
+    position: relative;
+}
+
+.calendar-class {
+    visibility: hidden;
+    height: 0px;
+}
+
+
+.fc.fc-media-screen.fc-direction-ltr.fc-theme-standard {
+    width: 740px;
+    position: absolute;
+    background: white;
+    right: 42px;
+    top: 7px;
+    z-index: 1111;
+    box-shadow: 0px 0px 5px 5px #d3d3d3;
+}
+
+
+.fc-today-button.fc-button.fc-button-primary {
+    display: none;
+}
+
+.fc-toolbar-chunk:nth-child(3) {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.fc-prev-button.fc-button.fc-button-primary {
+    position: absolute;
+    z-index: 1;
+    left: -94px;
+    top: 36px;
+    border-radius: 50% !important;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.fc-next-button.fc-button.fc-button-primary {
+    right: -82px;
+    top: 36px;
+    border-radius: 50% !important;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.fc-icon.fc-icon-chevron-left {
+    color: #707070;
+}
+
+.fc-icon.fc-icon-chevron-right {
+    color: #707070;
+}
+
+.fc-header-toolbar.fc-toolbar {
+    /*width:600px;*/
+    display: block;
+    text-align: center;
+}
+
+.fc-view-harness.fc-view-harness-active {
+    /*width:600px;*/
+}
+
+
+.fc-dayGridMonth-view.fc-view.fc-daygrid {
+    /*width:600px;*/
+}
+
+
+.fc-toolbar-title {
+    font-size: 17px !important;
+    font-weight: 600;
+    margin-top: 40px !important;
+    position: relative;
+}
+
+    .fc-toolbar-title:after {
+        content: "";
+        position: absolute;
+        height: 4px;
+        width: 25px;
+        top: 25px;
+        left: 48%;
+        background-color: green;
+        background-image: linear-gradient(to right,#36B14A,#8BC441);
+        border-radius: 20px;
+    }
+
+.fc-daygrid-day-frame.fc-scrollgrid-sync-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: solid 1px #ccc;
+    margin: 5px;
+    /*height: 58px;*/
+    border-radius: 15px;
+}
+
+    .fc-daygrid-day-frame.fc-scrollgrid-sync-inner:hover {
+        box-shadow: 0px 0px 5px 5px #d3d3d3;
+    }
+
+.fc-daygrid-day-top > a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.fc-theme-standard td, .fc-theme-standard th {
+    border: none;
+    padding: 5px;
+}
+
+
+.fc .fc-daygrid-day.fc-day-today {
+    background: none !important;
+}
+
+
+/*.fc-event.fc-event-start.fc-event-end.fc-event-past.fc-bg-event {
+    border-radius: 15px;
+}*/
+
+
+.fc-event.fc-event-start.fc-event-end.fc-event-future.fc-bg-event {
+    border-radius: 15px;
+}
+
+.fc .fc-bg-event .fc-event-title {
+    border-radius: 15px;
+    background: white;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 85%;
+    font-size: 7px !important;
+    font-weight: 600 !important;
+    opacity: 1 !important;
+}
+
+.fc-scrollgrid-sync-inner a {
+    color: #9B9B9B;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.fc-daygrid-day-top a {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    top: -6px;
+}
+
+.fc-event.fc-event-start.fc-event-end.fc-event-today.fc-bg-event {
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+.fc-event.fc-event-start.fc-event-end.fc-event-past.fc-bg-event {
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.fc-event.fc-event-start.fc-event-end.fc-event-future.fc-bg-event {
+    cursor: pointer;
+}
+
+/*calendar-css End*/
+/*Pagination-css Start*/
+.page-item:first-child .page-link {
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 20px !important;
+    padding: 4px 20px;
+}
+
+.page-item:last-child .page-link {
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 20px !important;
+    padding: 4px 20px;
+}
+
+.page-item {
+    margin-right: 20px;
+}
+
+
+
+/*.pagination li:first-child{
+    display:block !important;
+}*/
+/*.page-link:active{
+    background:green;
+}*/
+.page-link.page-number-btn {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+    .page-link.page-number-btn:hover {
+        color: black
+    }
+
+.page-link:hover {
+    color: black
+}
+
+.page-number-btn:focus {
+    background: #7BCE70;
+    color: white;
+}
+
+.pagination li > a {
+    color: black;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+
+.page-number {
+    /*background: #7BCE70;*/
+    background: white;
+}
+
+.active > .page-link, .page-link.active {
+    background: #7BCE70;
+    border-color: transparent;
+}
+/*Pagination-css End*/
+
+/*loader start*/
+#overlay {
+    position: fixed;
+    top: 0;
+    z-index: 10000000;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+}
+
+.cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px #ddd solid;
+    border-top: 4px #2e93e6 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+}
+
+@keyframes sp-anime {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/*loader end*/
+
+
+.row.upper-footer {
+    display: none;
+}
+
