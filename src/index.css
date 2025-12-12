@@ -1,0 +1,305 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+  padding-bottom: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bebasneue-cursive {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.disabled-link {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Navbar Styling */
+.navbar-nav {
+  margin-right: 0;
+  color: #000;
+}
+
+.navbar-header {
+  align-items: center;
+  height: 102px;
+}
+
+.header-logo {
+  margin-left: 58px;
+  height: 100%;
+  object-fit: contain;
+}
+
+.navbar-user-icon-css > i {
+  color: #8dc63f;
+  font-size: 23px;
+  position: relative;
+  top: -3px;
+}
+
+.nav.navbar-nav.navbar-css {
+  font-size: 16px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.nav.navbar-nav li {
+  color: #000;
+  font-weight: 600;
+  margin-right: 25px;
+}
+
+.nav.navbar-nav li a {
+  color: #474646;
+  text-decoration: none;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  border-radius: 5px;
+}
+
+.dropdown-menu.navbar-dropdown {
+  border-radius: 5px;
+}
+
+.dropdown-menu.navbar-dropdown.header-dropdown li > a:active {
+  background-color: transparent;
+}
+
+ul .navbar-dropdown a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px 10px;
+  display: block;
+}
+
+ul .navbar-dropdown a:hover {
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border: none;
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+/* Filter Styles */
+.search-trek-container {
+  padding: 0;
+}
+
+.banner-image-row {
+  position: relative;
+  margin: 0;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.search-sort-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  left: 0;
+  z-index: 10;
+}
+
+.search-div {
+  position: relative;
+  width: 300px;
+}
+
+.search-trek {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.search-trek::placeholder {
+  color: #999;
+}
+
+.sort-div {
+  position: relative;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+.sort-trek {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.filter-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.filter-hr {
+  border: 1px solid #ddd;
+  margin: 15px 0;
+}
+
+.filter-type-heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.filter-checkbox {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.filter-type-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-type-ul li {
+  margin: 8px 0;
+}
+
+.filter-type-ul a {
+  text-decoration: none;
+  color: #333;
+}
+
+.brs-level-in-filter-green {
+  color: #8dc63f;
+  font-weight: 600;
+}
+
+.brs-level-in-filter-yellow {
+  color: #f4c430;
+  font-weight: 600;
+}
+
+.brs-level-in-filter-orange {
+  color: #ff9800;
+  font-weight: 600;
+}
+
+.brs-level-in-filter-red {
+  color: #f44336;
+  font-weight: 600;
+}
+
+/* Overlay and Loading */
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+#overlay.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #ff9800;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-logo {
+    margin-left: 15px;
+  }
+
+  .navbar-header {
+    height: 70px;
+  }
+
+  .nav.navbar-nav.navbar-css {
+    margin-right: 0;
+  }
+
+  .nav.navbar-nav li {
+    margin-right: 15px;
+  }
+
+  .search-div {
+    width: 100%;
+  }
+
+  .filter-heading {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav.navbar-nav li {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .filter-heading {
+    display: none;
+  }
+
+  .filter-heading.mobile {
+    display: block;
+  }
+}
