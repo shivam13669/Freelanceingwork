@@ -1,0 +1,22 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import '../public/css/Custom.min6da2.css';
+@import '../public/css/NewFooter.minf195.css';
+@import '../public/css/CustomSearch.css';
+@import '../public/css/home.css';
+@import '../public/css/AnnouncementBar.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
