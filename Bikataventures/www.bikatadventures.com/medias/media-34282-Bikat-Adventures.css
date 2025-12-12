@@ -1,0 +1,3124 @@
+﻿/*Common-Css Start*/
+.Landing-Page-Container {
+    max-width: 1200px;
+}
+
+.bebasneue-cursive {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.raleway{
+    font-family:'Raleway';
+}
+
+.Landing-Page-Brand-Logo-div {    
+    text-align: center;
+}
+
+.Landing-Page-Brand-Logo {
+    width: 180px;
+    height: 135px;
+}
+
+.Landing-Page-Wrapper {
+    padding: 0 70px;
+    box-shadow: 0px 0px 3px 1px #d3d3d3;
+    /*margin-top: 3em*/
+}
+
+.Landing-Page-Content-Div-Heading {
+    font-size: 37px;
+    font-weight: 400;
+    background-color: #F0F0F0;
+    display: inline-block;
+    padding: 10px 30px 10px 40px;
+    margin: 0;
+    margin-bottom:1.5em;
+    position: relative;
+}
+
+    .Landing-Page-Content-Div-Heading:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        background-image: linear-gradient(to top, #36B14A, #8BC441);
+        width: 20px;
+        height: 100%;
+    }
+
+.Landing-Page-Common-Para{
+    font-size:19px;
+    font-weight:400;
+    color:#575656;    
+}
+
+.landing-page-common-para-bold {
+    font-size: 21px;
+    font-weight: 600;
+    color: #373737;
+}
+
+.landing-page-common-para-dark {
+    font-size: 19px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.Landing-Page-Brand-Logo-div{
+    padding-top:2em;
+}
+
+.Landing-Page-Brand-Logo {
+    width: 140px;
+    height: 130px;
+}
+
+.landing-page-text-below-header-image {
+    font-size: 22px;
+    font-weight: 500;
+    color: #292626;
+    font-style:italic;
+    margin-top:1em;
+}
+
+.landing-page-heading-below-logo {
+    font-size: 23px;
+    color: #242424;
+    font-style:italic;
+}
+/*Common-Css End*/
+/*Kayaking-Course-Css Start*/
+.Kayaking-Course-Content-Wrapper {
+    padding: 0 70px;
+    box-shadow: 0px 0px 3px 1px #d3d3d3;
+    margin-top: 3em;
+}
+
+.Kayaking-Course-Brand-Logo-div {
+    text-align: center;
+    padding-top:2em;
+}
+
+.Kayaking-Course-Brand-Logo {
+    width: 140px;
+    height: 130px;
+}
+
+.Kayaking-Course-Heading {
+    font-size: 46px;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    font-weight: 700;
+    position: relative;
+    color: #0A0A0A;
+}
+
+    .Kayaking-Course-Heading:after {
+        position: absolute;
+        content: "";
+        bottom: -30px;
+        left: 0;
+        width: 105px;
+        height: 10px;
+        border-radius: 20px;        
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+    }
+
+
+.Kayaking-Course-Content-Para {
+    font-size: 19px;
+    font-weight: 400;
+    color: #575656;
+    margin-top: 40px;
+    margin-bottom:50px;
+}
+
+
+.Kayaking-Course-Content-Image{
+    width:100%;
+    height:540px;
+}
+
+.Kayaking-Course-Content-Div-2{
+    margin-top:6em;
+}
+
+.Kayaking-Course-Content-Div-Heading {
+    font-size: 37px;
+    font-weight: 400;
+    background-color: #F0F0F0;
+    display:inline-block;
+    padding:10px 30px 10px 40px;
+    margin:0;
+    line-height:1.5em;
+    position:relative;
+}
+
+    .Kayaking-Course-Content-Div-Heading:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top:0;
+        background-image: linear-gradient(to top, #36B14A, #8BC441);
+        width:25px;
+        height:100%;
+    }
+
+.Kayaking-Course-Content-Div-2-Wrapper{
+    margin-top:4em;
+}
+
+.Kayaking-Course-Content-Div-2-Content{
+    margin-bottom:3em;
+}
+
+.Kayaking-Course-Content-Div-2-Content:nth-child(4){
+    margin-bottom:5em;
+}
+
+.Kayaking-Course-Content-Div-2-Content-Icon {
+    width: 42px;
+    height: 42px;
+    margin-bottom:10px;
+}
+
+.Kayaking-Course-Content-Div-2-Content-Heading {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+
+
+.Kayaking-Course-Content-Div-2-Content-Para{
+    font-size:19px;
+    font-weight:400;
+    color:#565656;
+}
+
+.Kayaking-Course-Content-Div-3-Wrapper{
+    margin-top:3em;
+}
+
+.Kayaking-Course-Content-Div-3-Heading {
+    font-size:19px;
+    font-weight: 600;
+    color: #36B14A;
+    margin-bottom:20px;
+}
+
+.Kayaking-Course-Content-Div-3-Content{
+    margin-bottom:2em;
+}
+
+.Kayaking-Course-Content-Div-3-Content:nth-child(2){
+    margin-bottom:5em;
+}
+
+.form-check.Kayaking-Course-Input{
+    position:relative;
+}
+
+.form-check.Kayaking-Course-Input > input {
+    width: 13px;
+    height: 13px;
+    position:absolute;    
+    left:25px;
+    top:4px;
+}
+
+.form-check.Kayaking-Course-Input > label {
+    font-size: 17px;
+    font-weight: 400;
+    color: #525252;
+    margin-bottom: 10px;
+}
+
+.similar-adventures-wrapper{
+    display:flex;
+    justify-content:space-between;
+    margin-top:5em;
+}
+
+.similar-adventures-div-content {
+    padding: 15px;
+}
+
+.similar-adventures-div {
+    display: inline-block;
+    box-shadow: 0px 0px 3px 1px #d3d3d3;
+    border-radius: 10px;
+    max-width:234px;
+}
+
+.similar-adventures-div-image {
+    width: 234px;
+    height: 164px;
+    border-radius: 5px;
+    /*width:100%;*/
+}
+
+.similar-adventures-heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom:5px;
+}
+
+.similar-adventures-level-and-days{
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+}
+
+.similar-adventures-level-and-days:after{
+    position:absolute;
+    content: "";
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    width:26px;
+    height:6px;
+    bottom:-12px;
+    left:0;
+    border-radius:10px;
+}
+
+    .similar-adventures-level-and-days > span {
+        font-size: 14px;
+        font-weight: 400;
+        color: #858585;
+        display:flex;
+        align-items:center;
+    }
+
+    .similar-adventures-level-and-days span > i {
+        color: #8CC63F;
+        font-size:18px;
+        margin-right:5px;
+    }
+
+.check-itinerary-button {
+    margin-top: 60px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    border-radius: 20px;
+    padding: 0px 10px 2px 10px;    
+}
+
+.check-itinerary-button a{
+    font-size:14px;
+    font-weight:500;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.Kayaking-Course-Last-Div {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 4em;
+    padding-bottom: 6em;
+}
+
+.Kayaking-Course-Last-Div span:nth-child(1){
+    position:relative;
+    display:inline-block;
+}
+
+.Kayaking-Course-Last-Div span:nth-child(1):after{
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    position:absolute;
+    content:"";
+    left:-20px;
+    top:8px;
+    width:15px;
+    height:21px;
+}
+
+.Kayaking-Course-Last-Div > span{
+    display:block;
+    font-size:23px;
+    font-weight:600;
+    color:#3B3B3B;
+}
+
+.Kayaking-Course-Last-Div-2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #3B3B3B;
+    font-style:italic;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.Kayaking-Course-Last-Image{
+    width:209px;
+    height:43px;
+}
+/*Kayaking-Course-Css End*/
+
+
+
+/*Skiing-Course-Css Start*/
+
+.Skiing-Course-Content-Wrapper {
+    padding: 0 70px;
+    box-shadow: 0px 0px 3px 1px #d3d3d3;
+    margin-top: 3em;
+}
+
+.Skiing-Course-Brand-Logo-div {
+    text-align: center;
+    padding-top:2em;
+}
+
+.Skiing-Course-Brand-Logo {
+    width: 140px;
+    height: 130px;
+}
+
+.Skiing-Course-Content-Para {
+    font-size: 19px;
+    font-weight: 400;
+    color: #575656;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.Skiing-Course-Content-Image {
+    width: 100%;
+    height: 540px;
+}
+
+
+.Skiing-Course-Content-Div-Heading {
+    font-size: 37px;
+    font-weight: 400;
+    background-color: #F0F0F0;
+    display: inline-block;
+    padding: 15px 30px 10px 40px;
+    margin: 0;
+    line-height:1.5em;
+    position: relative;
+}
+
+    .Skiing-Course-Content-Div-Heading:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        background-image: linear-gradient(to top, #36B14A, #8BC441);
+        width: 25px;
+        height: 100%;
+    }
+
+.Skiing-Course-Content-Div-Heading > span {
+    display:block;
+}
+
+
+.Skiing-Course-Heading {
+    font-size: 46px;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    font-weight: 700;
+    position: relative;
+    color: #0A0A0A;
+    text-align: center;
+}
+
+    .Skiing-Course-Heading:after {
+        position: absolute;
+        content: "";
+        bottom: -30px;
+        left: 43%;
+        width: 105px;
+        height: 10px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+    }
+
+.Skiing-When-Where-Wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    padding:60px;    
+}
+
+.Skiing-When-Where{
+    padding:20px 40px;
+    position:relative;
+}
+
+    .Skiing-When-Where:after {
+        position: absolute;
+        content: "";
+        right: -25px;
+        top: 35px;
+        background-color: #303030;
+        width:1px;
+        height:55px;
+    }
+
+.Skiing-When-Where:nth-child(2):after{
+    display:none;
+}
+
+
+.Skiing-When-Where-Heading-1 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: #3B3B3B;
+    margin-bottom:20px;
+    position:relative;
+}
+
+    .Skiing-When-Where-Heading-1:after {
+        position: absolute;
+        content: "";
+        width: 28px;
+        height: 28px;
+        left: 50px;
+        top: 2px;
+        border-radius:5px;
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+    }
+
+.Skiing-When-Where-Heading-2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: #3B3B3B;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .Skiing-When-Where-Heading-2:after {
+        position: absolute;
+        content: "";
+        width: 28px;
+        height: 28px;
+        left: 0px;
+        top: 2px;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+    }
+
+.Skiing-When-Where-Content {
+    font-size: 19px;
+    font-weight: 400;
+    color: #575656;
+}
+
+.Skiing-When-Where-Content-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #575656;
+    display: block;
+    text-align:center;
+}
+
+.Skiing-Course-Content-Div-2-Wrapper{
+    margin-top:3em;
+}
+
+.Skiing-Course-Content-Div-2-Content {
+    margin-bottom: 3em;
+}
+
+    .Skiing-Course-Content-Div-2-Content:nth-child(4) {
+        margin-bottom: 5em;
+    }
+
+.Skiing-Course-Content-Div-2-Content-Icon {
+    width: 42px;
+    height: 42px;
+    margin-bottom:10px;
+}
+
+.Skiing-Course-Content-Div-2-Content-Heading {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+
+
+.Skiing-Course-Content-Div-2-Content-Para {
+    font-size: 19px;
+    font-weight: 400;
+    color: #565656;
+}
+
+.Skiing-Course-Content-Div-3-Wrapper{
+    margin-top:3em;
+}
+
+.form-check.Skiing-Course-Input {
+    position: relative;
+}
+
+    .form-check.Skiing-Course-Input > input {
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        left: 25px;
+        top: 4px;
+    }
+
+    .form-check.Skiing-Course-Input > label {
+        font-size: 17px;
+        font-weight: 400;
+        color: #525252;
+        margin-bottom: 10px;
+    }
+
+.Skiing-Course-Div-Content-Heading {
+    color: #3B3B3B;
+    font-size: 23px;
+    font-weight: 600;
+    position: relative;
+    margin:2em 0; 
+    padding-left:25px ;
+}
+
+    .Skiing-Course-Div-Content-Heading:after {
+        position: absolute;
+        content: "";
+        left: 2px;
+        top: 5px;
+        width: 16px;
+        height: 23px;
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+    }
+
+.Skiing-Course-Content-Div-6 > h2{
+    margin-top:2em;
+}
+
+.Skiing-Last-Div {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 4em;
+    padding-bottom: 6em;
+}
+
+.Skiing-Course-Last-Div-Heading {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3B3B3B;
+    position: relative;
+    display:inline-block;
+}
+
+    .Skiing-Course-Last-Div-Heading:after {
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+        position: absolute;
+        content: "";
+        left: -20px;
+        top: 5px;
+        width: 15px;
+        height: 21px;
+    }
+
+.Skiing-Course-Last-Div-2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #3B3B3B;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.Skiing-Course-Last-Image {
+    width: 350px;
+    height: 110px;
+}
+/*Skiing-Course-Css End*/
+
+
+/*Careers-Page-Css Start*/
+
+
+.Career-Page-Heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0A0A;
+    text-align:center;
+    margin-bottom:0.5em;
+}
+
+.Career-Page-Heading-2-Div{
+    text-align:center;
+}
+
+
+.Career-Page-Heading-2 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+}
+.row.Career-Page-Div-Content-Row{
+    margin-top:7em;
+    margin-bottom:3em;
+}
+
+.col-md-4.Career-Page-Div-Content-Column{
+    margin-bottom:2em;
+}
+.Career-Page-Div-Content {
+    display: flex;
+    align-items:center;
+    margin-bottom:3em;
+}
+
+.Career-Page-Div-Content-Image {
+    width: 57px;
+    height: 57px;
+}
+
+.Career-Page-Div-1-Content > span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #575656;
+    display:block;
+    margin-left:10px;
+}
+
+.Career-Page-Div-1-Content-Other-Heading{
+    font-size:22px;
+    font-weight:600;
+    color:#353535;
+    margin-bottom:15px;
+}
+
+.Career-Page-Div-1-Content-Other-Para {
+    font-size: 19px;
+    font-weight: 400;
+    color: #575656;
+}
+
+.Career-Page-Div-2{
+    margin-top:6em;
+}
+
+.marketing-team-requirement-heading-wrapper{
+    display:flex;
+    align-items:center;
+    margin-top:2em;
+}
+.marketing-team-requirement-heading-wrapper span {
+    font-size: 34px;
+    font-weight: 700;
+    color: #36B14A;
+}
+
+.marketing-team-requirement-heading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #353535;
+    /*margin-top: 2em;*/
+    /*margin-bottom: 20px;*/
+    display:inline-block;
+    position: relative;
+    padding-left: 10px;
+}
+
+.Career-Page-Div-Content-Sub-Headings {
+    font-size: 22px;
+    font-weight: 600;
+    color: #353535;
+    margin-top: 2em;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+}
+
+/*.Career-Page-Div-Content-Sub-Headings-after {
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    width: 22px;
+    height: 22px;
+    display:inline-block;
+    border-radius: 2px;
+}*/
+.Career-Page-Div-Content-Sub-Headings:after{
+    position:absolute;
+    content: "";
+    left:0;
+    top:4px;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    width:22px;
+    height:22px;
+    border-radius:2px;
+}
+.Career-Page-Div-2-Para {
+    font-size: 22px;
+    font-weight: 600;
+    color: #353535;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.Career-Page-Open-Position-Tiles-Wrapper{
+    display:flex;
+}
+
+.Career-Page-Open-Position-Tiles {
+    padding: 5px 15px;
+    box-shadow: 0px 0px 3px 1px #d3d3d3;
+    font-size: 19px;
+    font-weight: 600;
+    color: #3C3C3C;
+    margin-right:30px;
+}
+
+.Career-Page-Open-Position-Div {
+    margin: 5em 0;
+    background-color: #F1F1F1;
+    padding: 55px 60px;
+}
+
+.Career-Page-Open-Position-Div p {
+    margin-bottom:4em;
+}
+
+.Career-Page-Open-Position-Div-Heading {
+    display: flex;
+    align-items: center;
+}
+
+.Career-Page-Open-Position-Div-Heading-Number {
+    padding: 0px 30px;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    border-radius: 50%;
+    font-size: 53px;
+    font-weight: 500;
+    color: white;
+}
+
+.Career-Page-Open-Position-Heading {
+    font-size: 48px;
+    font-weight: 400;
+    color: #3E3B3B;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.Career-Page-Open-Position-Div-Other-Heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3E3B3B;    
+}
+
+.Career-Page-Open-Position-Div-Other{
+    margin-bottom:2.5em;  
+}
+
+
+.Career-Page-Open-Position-Div-Other > a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #36B14A;
+    text-decoration:underline !important;
+}
+
+/*.Career-Page-Open-Position-Apply-Here-Btn {
+    margin-top: 2em;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FEFEFE;
+    padding: 5px 30px;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    display:inline-block;
+    border-radius:5px;
+}
+*/
+.Career-Page-Open-Position-Apply-Here-Btn a {
+    color: white;
+    text-decoration: none;
+    margin-top: 2em;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FEFEFE;
+    padding: 5px 30px;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.Landing-Page-Common-Para > span{
+    display:block;
+}
+
+.Landing-Page-Common-Para > span:nth-child(2) {
+    margin-bottom:1em;
+}
+
+.Landing-Page-Common-Para .How-to-apply-span {
+    margin-bottom:1em;
+}
+.Career-Page-Div-4-Content-Wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.Career-Page-Div-4-Content {
+    box-shadow: 0px 0px 3px 1px #d3d3d3;
+    padding:40px;
+    flex-basis:46%;
+    margin-bottom:5em;
+    position:relative;
+}
+.Career-Page-Div-4-Content-Image {
+    width: 70px;
+    height: 70px;
+    position:absolute;
+    top:-35px;
+    left:40px;
+}
+
+.Career-Page-Div-4-Content-Heading {
+    padding-top: 1em;
+    font-size: 22px;
+    font-weight: 600;
+    color: #3B3B3B;
+    position:relative;
+}
+
+    .Career-Page-Div-4-Content-Heading:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: -6px;
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+        height:3px;
+        width:50px;
+    }
+
+.Career-Page-Div-4-Content-Para {
+    font-size: 18px;
+    font-weight: 400;
+    color: #575656;
+    margin-top:20px;
+}
+
+.Career-Page-Div-5-Content-Wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:4em;
+    margin-top:3em;
+}
+
+.Career-Page-Div-5-Content {
+    flex-basis: 33%;
+    font-size: 19px;
+    font-weight: 400;
+    color: #575656;
+    position:relative;
+    padding-left:25px;
+    margin-bottom:2em;
+}
+
+    .Career-Page-Div-5-Content:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 7px;
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+        height: 18px;
+        width: 18px;
+        border-radius:2px;
+    }
+
+.Career-Page-Div-6{
+    padding-bottom:2em;
+    margin-bottom:3em;
+}
+
+.career-column{
+    padding:0 100px !important;
+}
+
+.Career-Page-Div-4 .Landing-Page-Content-Div-Heading{
+    margin-bottom:2em;
+}
+
+.Career-Page-Div-5 .Landing-Page-Content-Div-Heading {
+    margin-bottom: 1em;
+}
+
+.para-with-span-mod span:nth-child(1){
+    margin-bottom:1.5em;
+}
+.roles-and-res{
+    margin-top:35px;
+}
+.roles-and-res-heading {
+    font-size: 19px;
+    font-weight: 600;
+    color: #3E3B3B;
+}
+
+.roles-and-res-skills div{
+    font-size: 19px;
+    font-weight: 400;
+    color: #575656;
+    margin-bottom:10px;
+}
+
+.marketing-team-wrapper .Career-Page-Open-Position-Div{
+    margin-bottom:20px;
+}
+
+    .marketing-team-wrapper .Career-Page-Open-Position-Div .Career-Page-Open-Position-Apply-Here-Btn a{
+        margin-top:0;
+    }
+/*Careers-Page-Css End*/
+/*Forerunner-Page-Css Start*/
+.forerunner-present-heading {
+    font-size: 19px;
+    font-weight: 400;
+    color: #575656;
+    font-style: italic;
+}
+.forerunner-page-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0A0A;
+    text-align: center;
+    /*margin-bottom: 0.5em;*/
+    position: relative;
+}
+
+.forerunner-page-heading:after{    
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    left: 47%;
+    width: 62px;
+    height: 9px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+}
+
+.forerunner-content-heading-div{
+    text-align:center;
+    margin-top:4em;
+}
+
+.forerunner-content-heading-div > h2{
+    margin-bottom:0;
+}
+
+.forerunner-text-with-image-div{
+    position:relative;
+    text-align:center;
+}
+
+.forerunner-text-with-image{
+    width:350px;
+    height:350px;
+}
+
+.forerunner-text-with-image-content {
+    position: absolute;
+    content: "";
+    font-size: 19px;
+    font-weight: 400;
+    color: #575656;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.forerunner-content-div-2 .forerunner-content-heading-div{
+    text-align:inherit;
+}
+/*.forerunner-content-div-2 .Landing-Page-Common-Para {
+    text-align:center;
+}*/
+.forerunner-content-div-3-above-yt-video-wrapper {
+    padding-left: 20%;
+}
+
+.forerunner-content-div-3 .forerunner-content-heading-div {
+   margin-top:6em;
+   margin-bottom:3em;
+}
+
+.forerunner-content-div-3-extra-para > p {
+    text-align: inherit !important;
+    padding-left: 17%;
+}
+
+.forerunner-content-div-3-above-yt-video-div {
+    font-size: 19px;
+    font-weight: 400;
+    color: #575656;
+    position: relative;
+    margin-bottom: 15px;
+    /*display:inline-block;*/
+}
+
+.forerunner-content-div-3-above-yt-video-div:after{
+    position:absolute;
+    content:"";
+    left:-30px;
+    top:8px;
+    width:18px;
+    height:18px;
+    border-radius:2px;
+    background-image: linear-gradient(to top, #36B14A, #8BC441);
+}
+
+.happy-screening-text {
+    font-size: 19px;
+    font-weight: 600;
+    color: #3E3B3B;
+}
+
+.forerunner-yt-video{
+    width:100%;
+    height:500px;
+}
+
+.forerunner-last-div{
+    padding-bottom:4em;
+    margin-bottom:4em;
+}
+
+
+.forerunner-last-div > span {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+
+.forerunner-last-div .Career-Page-Open-Position-Apply-Here-Btn > a{
+    margin-top:1em;
+}
+
+/*Forerunner-Page-Css End*/
+/*Beyond-classroom-css Start*/
+.beyond-classroom-container {
+    max-width: 1200px;
+}
+
+.beyond-classroom-column {
+    padding: 80px;
+    /*margin-top: 2em;*/
+    background-image: linear-gradient(to right, #0BAA14, #76B33D);
+}
+
+.beyond-classroom-column .Landing-Page-Wrapper {
+    background:white;
+}
+
+
+.beyond-classroom-header-image-and-text{
+    position:relative;
+
+}
+
+    .beyond-classroom-header-image-and-text:after {
+        position: absolute;
+        content: "";
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 62px;
+        height: 9px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+    }
+
+
+.beyond-classroom-header-image {
+    width: 100%;
+    height: 300px;
+}
+
+.beyond-classroom-header-image-text {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 61px;
+    font-weight: 500;
+    color: #0A0A0A;
+}
+
+.beyond-classroom-header-text {
+    font-size: 21px;
+    font-weight: 600;
+    color: #373736;
+    position: absolute;    
+    bottom: 13px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.beyond-classroom-comman-para-bold {
+    font-size: 21px;
+    font-weight: 600;
+    color: #373737;
+    margin:1em 0;
+}
+
+h3.beyond-classroom-comman-para-bold{
+    border:1px solid black;
+    padding:15px 0;
+    margin:0;
+}
+
+.grades-location-wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    background: #F5F5F5;
+    justify-content:space-around;
+    padding:60px 0;
+}
+
+.grades-location-div{
+    text-align:center;
+    flex-basis:33%;
+}
+
+.grades-location-image{
+    width:58px;
+    height:58px;
+}
+
+.grades-location-div-text-bold {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    position:relative;
+    margin-bottom:10px;
+}
+
+    .grades-location-div-text-bold:after {
+        position: absolute;
+        content: "";
+        bottom: -7px;
+        left: 50%;
+        width: 31px;
+        height: 3px;
+        border-radius: 6px;
+        background-image: linear-gradient(to right, #36B14A, #8BC441);
+        transform: translate(-50%, -50%);
+    }
+
+.grades-location-div-text{
+    font-size:19px;
+    font-weight:400;
+    color:#000000;
+}
+.beyond-classroom-heading-div{
+    margin-top:4em;
+    text-align:center;
+}
+
+.beyond-classroom-checkbox-content-wrapper{
+    margin-bottom:40px;
+}
+.beyond-classroom-checkbox-content-div{
+    padding-left:100px;
+}
+.form-check.beyond-classroom-Input {
+    position: relative;
+    /*display: inline-block;*/
+}
+
+    .form-check.beyond-classroom-Input > input {
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        left: 25px;
+        top: 4px;
+    }
+
+    .form-check.beyond-classroom-Input > label {
+        font-size: 17px;
+        font-weight: 400;
+        color: #525252;
+        margin-bottom: 10px;
+    }
+
+.beyond-classroom-youtube-video-div > h3{
+    padding:15px 80px;
+}
+
+.beyond-classroom-itinerary-image-wrapper {
+    background: #F5F5F5;
+    padding:30px 0;
+}
+
+.beyond-classroom-itinerary-image-wrapper .beyond-classroom-heading-div > h2{
+    margin-bottom:0.5em;
+}
+
+.beyond-classroom-itinerary-image-wrapper .beyond-classroom-heading-div{
+    margin-top:1em;
+}
+
+    .beyond-classroom-itinerary-image-wrapper .beyond-classroom-please-note {
+        margin-bottom: 20px;
+    }
+
+.beyond-classroom-please-note {
+    text-align: center;
+}
+
+.beyond-classroom-please-note-bold {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2D2E2F;
+}
+.beyond-classroom-please-note-light {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2D2E2F;
+}
+
+.beyond-classroom-itinerary-image-div{
+    padding:0 80px;
+}
+
+
+.beyond-classroom-itinerary-image {
+    width: 100%;
+}
+
+.beyond-classroom-team-building-image-wrapper {
+    background: white;
+    padding: 30px 0;
+}
+
+    .beyond-classroom-team-building-image-wrapper .beyond-classroom-heading-div{
+        margin-top:0;
+    }
+
+.beyond-classroom-team-building-image-wrapper .beyond-classroom-heading-div > h2 {
+    margin-bottom: 0.5em;
+}
+
+
+    .beyond-classroom-team-building-image-wrapper .beyond-classroom-please-note{
+        margin-bottom:20px;
+    }
+
+.beyond-classroom-other-div{
+    background:white;
+    padding-bottom:5em;
+}
+
+.beyond-classroom-other-div >p {
+    padding: 30px 60px;
+}
+.beyond-classroom-other-image-wrapper {
+    background: #f5f5f5;
+}
+
+.beyond-classroom-other-div .beyond-classroom-comman-para-bold{
+    padding:30px 70px;
+    margin:0;
+    color:#000000;
+
+}
+
+.beyond-classroom-other-div-para-bold {
+    font-weight: 500;
+    font-size:19px;
+    color:#000000;
+}
+
+.beyond-classroom-why-bikat-image-wrapper{
+    margin-top:5em;
+}
+
+.beyond-classroom-last-div-review-wrapper{
+    padding:0 123px;
+    position:relative;
+}
+
+
+/*.beyond-classroom-last-div-review-wrapper:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 20px;
+    background-image: linear-gradient(to top, #36B14A, #8BC441);
+    width: 7px;
+    height: 80px;
+}*/
+.beyond-classroom-last-div-review {
+    border: 1px solid #6B6B6B;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 30px;
+    margin-bottom:4em;
+    position:relative;
+}
+
+    .beyond-classroom-last-div-review:after {
+        position: absolute;
+        content: "";
+        left: -4px;
+        top: 20px;
+        border-radius:20px;
+        background-image: linear-gradient(to top, #36B14A, #8BC441);
+        width: 7px;
+        height: 80px;
+    }
+
+.beyond-classroom-last-div-review-wrapper .beyond-classroom-last-div-review:nth-child(4) {
+    margin-bottom: 2em;
+}
+.beyond-classroom-last-div-review-text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #2D2E2F;
+}
+
+.beyond-classroom-last-div-review-text > div{
+    margin-bottom:20px;
+}
+
+.beyond-classroom-review-user-name {
+    font-size: 17px;
+    font-weight: 600;
+    color: #2D2E2F;
+}
+
+.beyond-classroom-review-school-name {
+    font-size: 17px;
+    font-weight: 400;
+    color: #539245;
+    font-style:italic;
+}
+
+.beyond-classroom-last-div-review-after-line{
+    position:relative;
+}
+
+    .beyond-classroom-last-div-review-after-line:after {
+        position: absolute;
+        content: "";
+        right: 34px;
+        bottom: -34px;
+        border-radius: 20px;
+        background-image: linear-gradient(to top, #36B14A, #8BC441);
+        width: 85px;
+        height: 7px;
+    }
+
+.beyond-classroom-contact-us-wrapper{
+    text-align:center;
+}
+
+.beyond-classroom-contact-us-text {
+    font-size: 19px;
+    font-weight: 600;
+    color: #2D2E2F;
+    font-style:italic;
+}
+
+.beyond-classroom-contact-us-btn a {
+    text-decoration: none;
+    margin-top: 1em;
+    font-size: 19px;
+    font-weight: 600;
+    color: #FEFEFE;
+    padding: 5px 30px;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.beyond-classroom-review-wrapper {
+    background-color: white;
+}
+
+.beyond-classroom-review-margin-padding {
+    background: #F0F0F0;
+    margin: 0 70px;
+}
+
+.total-review-and-star-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.total-review-and-star-img-div{
+    text-align:center;
+    position:absolute;
+    top:-27px;
+    width:100%;
+}
+
+.total-review-and-star-img {
+    width: 54px;
+    height: 54px;
+    border: 1px solid #6B6B6B;
+    border-radius: 10px;
+    padding: 10px;
+    background:white;
+}
+
+.total-review-and-star-div{
+    text-align:center;
+    position:relative;
+}
+
+.total-review-and-star-div:nth-child(1) {
+    margin-right: 40px;
+}
+
+.total-star-wrapper {
+    display: flex;
+    margin-top: 30px;
+}
+
+.total-star-div{
+    margin-left:10px;
+}
+
+    .total-star-div > i {
+        color: #8CC63F;
+    }
+
+.total-star-text {
+    color: #575656;
+    font-size:15px;
+    font-weight:600;
+}
+
+.total-review {
+    color: #575656;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration:underline;
+}
+
+.beyond-classroom-review-by-user-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.beyond-classroom-review-by-user-div {
+    background: #FFFFFF;
+    padding: 20px;
+    padding-bottom:40px;
+    position: relative;
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom:4em;
+}
+
+.beyond-classroom-review-by-user-div:nth-child(3){
+    margin-bottom:2em;
+}
+
+.beyond-classroom-review-by-user-div:nth-child(4){
+    margin-bottom:2em;
+}
+
+.beyond-classroom-review-name-and-image{
+    display:flex;
+    justify-content:space-between;
+}
+
+.beyond-classroom-review-by-user-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #575656;
+    position:relative;
+}
+
+.beyond-classroom-review-by-user-name:after{
+    position: absolute;
+    content: "";
+    bottom: -7px;
+    left: 2px;    
+    width: 46px;
+    height: 3px;    
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+}
+
+.beyond-classroom-review-img {
+    width: 20px;
+    height: 20px;   
+}
+
+.beyond-classroom-review-by-user-para {
+    font-size: 15px;
+    font-weight: 400;
+    color: #575656;
+    margin-top:20px;
+}
+
+.beyond-classroom-review-by-user-img {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    right: 40px;
+    bottom: -38px;
+    border: 3px solid #8CC63F;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.beyond-classroom-review-by-user-div > .total-star-div {
+    margin-left: 0;
+    margin-top: 10px
+}
+/*Beyond-classroom-css End*/
+/*Republic-Day-Sale-Css Start*/
+.republic-day-sale-container {
+    max-width: 1200px;
+}
+
+.republic-day-sale-column {
+    padding: 80px;
+    margin-top: 2em;
+    background-image: linear-gradient(to right, #E4AA46, #76B33D);
+}
+
+.republic-day-sale-column .Landing-Page-Wrapper{
+    background:white;
+}
+
+.republic-day-sale-main-heading-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 15px;
+}
+
+.tricolor-wrapper-left {
+    margin-right: 40px;
+}
+
+.tricolor-wrapper-right {
+    margin-left: 40px;
+}
+
+.tricolor-orange {
+    background-color: #D89715;
+    width: 62px;
+    height: 11px;
+    margin-bottom: 7px;
+}
+
+.tricolor-green {
+    background-color: #0BAA14;
+    width: 62px;
+    height: 11px;
+}
+
+.republic-day-sale-main-heading {
+    font-size: 65px;
+    font-weight: 400;
+    color: #292626;
+}
+
+/*Republic-Day-Sale-Css Start*/
+
+/*DIY-Css Start*/
+.DIY-container{
+    max-width:1200px;
+}
+
+.DIY-container .beyond-classroom-column{
+    text-align:center;
+    padding-bottom:200px;    
+    margin-top:0;
+}
+
+.DIY-container .beyond-classroom-column .Landing-Page-Wrapper{
+    padding:0 100px;
+    padding-top:100px;
+}
+.diy-div-1-main-heading {
+    font-size: 44px;
+    font-weight: 700;
+    color: #0A0A0A;
+    margin-bottom: 25px;
+}
+
+.diy-div-1-sub-heading {
+    font-size: 21px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    padding: 4px 20px;
+    display: inline-block;
+    border-radius:20px;
+    margin-bottom:45px;
+}
+
+.diy-div-1-wrapper .landing-page-common-para-bold{
+    margin-bottom:25px;
+}
+
+.diy-div-1-wrapper .landing-page-common-para-dark {
+    margin-bottom: 10px;
+}
+
+
+.diy-div-1-img{
+    width:100%;
+    height:450px;
+}
+
+.diy-div-1-img-caption {
+    font-size: 19px;
+    font-weight: 400;
+    color: #000000;
+    padding: 4px 20px;
+    border: 1px solid #6B6B6B;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom:100px;
+}
+
+.diy-div-2-wrapper .Landing-Page-Content-Div-Heading{
+    font-size:40px;
+}
+
+.diy-div-2-img-wrapper{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:130px;
+}
+
+.diy-div-2-img{
+    width:400px;
+    height:380px;
+}
+
+.diy-div-2-other-img{
+    width:100%;
+    height:475px;
+    margin-bottom:130px;
+}
+
+.diy-div-3-wrapper .beyond-classroom-checkbox-content-div {
+    text-align: initial;
+    padding-left: 0;
+}
+
+.diy-div-3-wrapper .Landing-Page-Content-Div-Heading{
+    font-size:40px;
+}
+
+.diy-div-3-para-bold {
+    font-size: 19px;
+    font-weight: 500;
+    color: #373737;
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+
+.diy-div-3-img{
+    width:100%;
+    height:1111px;
+    margin-bottom:150px;
+}
+
+.diy-div-4-wrapper .Landing-Page-Content-Div-Heading {
+    font-size: 40px;
+}
+
+.diy-div-4-wrapper .landing-page-common-para-bold{
+    margin-bottom:25px;
+}
+
+.diy-div-4-wrapper .Landing-Page-Common-Para {
+    margin-bottom: 110px;
+}
+
+
+.diy-div-4-review-wrapper{
+    margin-bottom:85px;
+}
+.diy-div-4-wrapper .beyond-classroom-last-div-review {
+    background: #F3F4F3;
+    border-radius: 0;
+    border: none;
+}
+
+.diy-div-4-wrapper .beyond-classroom-last-div-review-text{
+    text-align:initial;
+}
+
+.diy-div-4-wrapper .beyond-classroom-review-user-name {
+    text-align: initial;
+}
+
+.diy-div-4-wrapper .beyond-classroom-review-school-name {
+    text-align: initial;
+}
+
+
+.diy-div-4-img{
+    width:100%;
+    height:640px;
+    border-radius:10px;
+    margin-bottom:150px;
+}
+
+.diy-div-5-wrapper .Landing-Page-Content-Div-Heading {
+    font-size: 40px;
+}
+
+.diy-div-5-wrapper .landing-page-common-para-bold{
+    margin-bottom:25px;
+}
+
+.diy-div-5-wrapper .Landing-Page-Common-Para {
+    margin-bottom: 110px;
+}
+
+.diy-div-5-eligibility-div {
+    background: #F3F4F3;
+    position: relative;
+    margin-bottom:70px;
+}
+
+.diy-div-5-eligibility-div:nth-child(2){
+    margin-bottom:50px;
+}
+
+.diy-div-5-eligibility-div-heading {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+.diy-div-5-eligibility-div-heading-number {
+    font-size: 40px;
+    font-weight: 600;
+    color: #10C141;
+}
+
+.diy-div-5-eligibility-div-main-heading {
+    font-size: 21px;
+    font-weight: 600;
+    color: #343433;
+    margin-left:10px;
+}
+
+.diy-div-5-eligibility-div-content {
+    padding-top: 30px;
+    padding-bottom:40px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #343433;
+}
+
+.diy-div-6-wrapper .Landing-Page-Content-Div-Heading{
+    margin-bottom:32px;
+    font-size:40px;
+}
+
+.diy-div-6-wrapper .landing-page-common-para-dark{
+    margin-bottom:20px;
+}
+
+.diy-div-6-wrapper .landing-page-common-para-bold {
+    margin-bottom: 25px;
+}
+
+.diy-div-6-apply-here-wrapper{
+    padding-bottom:60px;
+}
+.diy-div-6-apply-here-wrapper .landing-page-common-para-dark {
+    margin-top: 45px;
+}
+
+.diy-div-6-apply-here-heading {
+    font-size: 21px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.diy-div-6-apply-here-a {
+    color: white;
+    background-image: linear-gradient(to right, #36B14A, #8BC441);
+    font-size: 19px;
+    font-weight: 700; 
+    /*margin-bottom:45px;*/
+    padding:12px 35px;
+    padding-bottom:15px !important;
+    padding-bottom:10px;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+.diy-div-6-apply-here-a:hover{
+    text-decoration:none;
+    color:white;
+}
+/*DIY-Css End*/
+
+/*winter-sale-css Start*/
+.winter-sale-container{
+    max-width:1200px;    
+}
+
+    .winter-sale-container .beyond-classroom-column {
+        padding: 80px;
+        margin-top:0;
+        background-image: linear-gradient(to bottom ,#347368,#5AC9B6);        
+    }
+
+.winter-sale-container .beyond-classroom-column .Landing-Page-Wrapper{
+    margin-top:0;
+    border-radius:20px;
+    text-align:center;
+}
+
+.winter-sale-div-1-img{
+    width:550px;
+    height:100%;
+}
+
+.winter-sale-div-1-img-caption-wrapper {
+    display: inline-block;
+    box-shadow: 0px 0px 3px 1px #d3d3d3;
+    position: relative;
+    padding: 20px 100px 35px 100px;
+}
+
+    .winter-sale-div-1-img-caption-wrapper:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 12px;
+        background-image: linear-gradient(to bottom,#5AC9B6,#347368);
+    }
+
+.winter-sale-div-1-img-caption-after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 12px;
+    background-image: linear-gradient(to bottom,#5AC9B6,#347368);
+}
+
+.winter-img-caption-bold {
+    font-size: 27px;
+    font-weight: 600;
+    color: #242424;
+    position:relative;
+}
+
+.winter-img-caption-bold:nth-child(2){
+    margin-left:20px;
+}
+
+.winter-img-caption-bold:after{
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 8px;
+    height: 70%;
+    width: 3px;
+    background-color:#242424;
+}
+
+.winter-img-caption-bold:nth-child(2):after{
+    display:none;
+}
+
+.winter-img-caption-regular {
+    font-size: 21px;
+    font-weight: 400;
+    color: #242424;
+}
+
+.winter-sale-div-1-offer {
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 110px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#F5BC2F,#EF9F2B);    
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.winter-sale-common-para-regular {
+    font-size: 22px;
+    font-weight: 400;
+    color: #242424;
+}
+
+.winter-sale-common-para-bold {
+    font-size: 22px;
+    font-weight: 600;
+    color: #242424;
+}
+
+.winter-sale-div-1-wrapper .winter-sale-common-para-regular{
+    margin-top:60px;
+}
+.winter-sale-div-1-wrapper .winter-sale-common-para-bold {
+    margin-top: 35px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #242424;
+    border-radius:5px;    
+}
+
+.winter-sale-common-para-bold-box {
+    box-shadow: 0px 0px 3px 2px #d3d3d3;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #242424;
+}
+
+.winter-sale-main-heading {
+    margin-top: 60px;
+    position: relative;
+    font-size: 47px;
+    font-weight: 500;
+    color: #242424;
+}
+
+    .winter-sale-main-heading:after {
+        position: absolute;
+        content: "";
+        background-image: linear-gradient(to right,#5AC9B6,#347368);
+        bottom: -20%;
+        left: 50%;
+        border-radius:5px;
+        transform: translate(-50%, -50%);
+        height: 6px;
+        width: 62px;
+    }
+
+.winter-sale-div-2-sub-heading {
+    font-size: 22px;
+    font-weight: 400;
+    color: #242424;
+    margin-top:1.5em;
+}
+
+    .winter-sale-div-2-sub-heading > span {
+        font-size: 24px;
+        font-weight: 600;
+        color: #242424;
+    }
+
+.winter-sale-div-2-img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4em;
+}
+
+.winter-sale-div-2-explore-btn {
+    display: inline-block;
+    box-shadow: 0px 0px 3px 2px #d3d3d3, inset 0px 0 10px -6px #000;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.winter-sale-div-2-explore-btn , a:link{
+    text-decoration:none;
+}
+
+.winter-sale-div-2-explore-btn-content {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom,#0BAA14,#76B33D);
+}
+
+.winter-sale-div-3-wrapper{
+    padding-bottom:7em;
+}
+
+.color-div-wrapper {
+    display: flex;
+}
+
+.color-div-content{
+    display:flex;
+    flex-direction:column;
+}
+
+.color-div-left{
+    margin-top:15px;
+}
+
+.color-div-right {
+    margin-top: 15px;
+}
+.color-div-left > div {
+    background-image: linear-gradient(to right,#5AC9B6,#347368);
+    height: 10px;
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.color-div-right > div {
+    background-image: linear-gradient(to right,#5AC9B6,#347368);
+    height: 10px;
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.winter-sale-div-3-wrapper .color-div-content .winter-sale-div-2-sub-heading{
+    margin-top:0;
+    padding:0 15px;
+}
+
+.winter-sale-div-3-wrapper .color-div-content .winter-sale-common-para-bold {
+    margin-top: 20px;
+}
+
+.winter-sale-div-3-wrapper .winter-sale-common-para-bold-box {
+    margin-top:35px;
+}
+
+.winter-sale-div-3-wrapper .winter-sale-common-para-bold {
+    margin-top: 20px;
+}
+
+.winter-sale-div-3-wrapper .winter-sale-div-2-sub-heading {
+    margin-top: 10px;
+}
+
+.contact-and-whatsapp-wrapper{
+    margin-top:30px;
+}
+.contact-and-whatsapp-div {
+    display: inline-block;
+    width:350px;
+    padding: 10px 20px 10px 70px;
+    box-shadow: 0px 0px 3px 2px #d3d3d3;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom:20px;
+}
+
+.contact-and-whatsapp-image {
+    position: absolute;
+    background-image: linear-gradient(to bottom,#0BAA14,#76B33D);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+.contact-and-whatsapp-image > i{
+    color:white;
+    font-size:25px;
+
+}
+
+.phone-number {
+    font-size: 20px;
+    font-weight: 400;
+    color: #242424;
+}
+
+/*.contact-and-whatsapp-a .contact-and-whatsapp-div {
+    text-decoration: none;
+    color: transparent;
+    --bs-link-color: transparent;
+}
+
+a:-webkit-any{
+    text-decoration:none;
+}*/
+
+.contact-and-whatsapp-div , a:link {
+    text-decoration:none;
+}
+/*winter-sale-css End*/
+@media screen and (min-width:320px) and (max-width:576px) {
+    /*Kayaking-Course-Css Start*/
+    /* .Kayaking-Course-Brand-Logo {
+        width: 140px;
+        height: 125px;
+    }*/
+
+
+    .Kayaking-Course-Content-Wrapper {
+        padding: 0 20px;
+    }
+
+    .Kayaking-Course-Heading{
+        font-size:36px;
+    }
+
+    .Kayaking-Course-Heading:after{
+        width:77px;
+        height:9px;
+    }
+
+    .Kayaking-Course-Content-Image{
+        height:242px;
+    }
+
+    .Kayaking-Course-Content-Div-Heading{
+        font-size:31px;
+        padding: 10px 10px 10px 30px;
+    }
+
+    .Kayaking-Course-Content-Div-Heading:after{
+        height:100%;
+        width:15px;
+    }
+
+    .Kayaking-Course-Content-Div-2{
+        margin-top:4em;
+    }
+
+    .Kayaking-Course-Content-Div-2-Wrapper{
+        margin-top:3em;
+    }
+
+    .Kayaking-Course-Content-Div-2-Content:nth-child(4){
+        margin-bottom:4em;
+    }
+
+    .similar-adventures-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        /*padding: 0 30px;*/
+    }
+
+    .similar-adventures-div{
+        margin-bottom:4em;
+        width:100%;
+        max-width:none;
+    }
+
+    .similar-adventures-div-image{
+        width:100%;
+
+    }
+
+    .Kayaking-Course-Content-Div-2-Content-Heading{
+        margin-bottom:20px;
+    }
+    /*Kayaking-Course-Css End*/
+
+
+    /*Skiing-Course-Css Start*/
+    .Skiing-Course-Content-Wrapper {
+        padding: 0 20px;
+    }
+
+    .Skiing-Course-Heading:after {
+        left: 38%;
+        width: 61px;
+        height: 9px;
+    }
+
+
+    .Skiing-Course-Content-Image{
+        height:250px;
+    }
+
+    .Skiing-When-Where-Wrapper {
+        flex-direction: column;
+        padding: 60px 0px;
+    }
+
+    .Skiing-When-Where-Heading-1:after{
+        left:22%;
+    }
+
+    .Skiing-When-Where-Heading-2:after{
+        left:22%;
+    }
+
+    .Skiing-When-Where{
+        padding:0;
+    }
+
+    .Skiing-When-Where:nth-child(1){
+        margin-bottom:3em;
+    }
+
+    .Skiing-When-Where-Content{
+        display:block;
+        text-align:center;
+    }
+
+    .Skiing-When-Where:after{
+        display:none;
+    }
+
+    .Skiing-Course-Content-Div-Heading{
+        font-size:30px;
+    }
+
+    .Skiing-Course-Content-Div-Heading:after {
+        width: 14px;
+    }
+
+    .Skiing-Course-Div-Content-Heading{
+        font-size:18px;
+    }
+    .Skiing-Course-Div-Content-Heading:after{
+        top:3px;
+        height:16px;
+    }
+
+    .Skiing-Course-Content-Div-6 > div{
+        margin-top:2em;
+    }
+
+    .Skiing-Course-Last-Div-Heading:after{
+        display:none;
+    }
+
+    .Skiing-Last-Div{
+        padding:0 20px;
+    }
+
+    .Skiing-Course-Last-Image {
+        width: 200px;
+        height: 100px;
+    }
+    .Skiing-Course-Brand-Logo {
+        width: 140px;
+        height: 130px;
+    }
+
+    .Skiing-Course-Content-Div-2-Content-Heading{
+        margin-bottom:15px;
+    }
+    /*Skiing-Course-Css End*/
+
+    /*Career-mobile-css Start*/
+    .Career-Page-Heading{
+        font-size:39px;
+    }
+
+    .Career-Page-Heading-2{
+        font-size:18px;
+    }
+
+
+    .Career-Page-Div-Content-Column{
+        display:flex;
+        flex-direction:row;
+        /*justify-content:space-between;*/
+    }
+
+    /*.Career-Page-Div-Content-Column:nth-child(3){
+        padding:0;
+    }*/
+
+    .Career-Page-Div-Content {
+        flex-direction: column;
+        text-align: center;
+        flex-basis:70%;
+    }
+
+    .Career-Page-Div-1-Content > span{
+        margin:0;
+    }
+
+    .Career-Page-Div-1-Content-Other-Heading{
+        text-align:start;
+    }
+
+    .Career-Page-Div-1-Content-Other-Para{
+        text-align:start;
+    }
+
+    .Career-Page-Div-2-Para{
+        text-align:start;
+    }
+
+    .Career-Page-Open-Position-Tiles-Wrapper{
+        flex-wrap:wrap;
+        margin-top:2em;
+    }
+
+    .Career-Page-Open-Position-Tiles{
+        flex-basis:45%;
+        text-align:center;
+        margin-right:10px;
+        margin-bottom:20px;
+    }
+
+    .Career-Page-Open-Position-Div{
+        padding:30px;
+    }
+
+    .Career-Page-Open-Position-Div-Heading{
+        flex-direction:column;
+    }
+
+    .Career-Page-Open-Position-Heading{
+        margin-left:0;
+        text-align:center;
+        font-size:41px;
+        margin-top:30px;
+    }
+
+    .Career-Page-Open-Position-Div-Other {
+        text-align:start;
+        margin-bottom:3em;
+    }
+
+    .Career-Page-Open-Position-Apply-Here-Btn{
+        text-align:center;
+    }
+
+    .Career-Page-Div-4-Content{
+        flex-basis:unset;
+    }
+
+
+    .Career-Page-Div-5-Content-Wrapper{
+        margin-top:2em;
+    }
+
+
+    .Career-Page-Div-5-Content {
+        flex-basis: 50%;
+    }
+
+    .career-column{
+        padding:0 !important;
+        box-shadow:none !important;
+    }
+
+    .Career-Page-Div-3 .Career-Page-Div-3-heading {
+        text-align: center;
+    }
+
+    .marketing-team-requirement-heading-wrapper{
+        margin-bottom:20px;
+    }
+
+    .Career-Page-Div-Content-Sub-Headings-div{
+        text-align:start;
+    }
+    .Career-Page-Div-Content-Sub-Headings{
+        display:inline-block;
+    }
+    /*Career-mobile-css End*/
+    /*Forerunner-mobile-css Start*/
+    .forerunner-page-heading {
+        font-size: 36px;
+    }
+
+    .forerunner-page-heading:after{
+        left:38%;
+    }
+
+    .forerunner-text-with-image-content{
+        width:100%;
+    }
+
+    .forerunner-text-with-image {
+        width: 280px;
+        height: 300px;
+    }
+
+    .forerunner-yt-video{
+        height:200px;
+    }
+
+    .forerunner-column {
+        padding: 0 !important;
+        box-shadow:none !important;
+    }
+
+    .forerunner-content-div-3-above-yt-video-wrapper {
+        padding-left: 13%;
+    }
+
+    .forerunner-content-div-3-extra-para > p{
+        text-align:center !important;
+        padding-left:0;
+    }
+    /*Forerunner-mobile-css End*/
+    /*Common-css Start*/
+    .Landing-Page-Wrapper {
+        padding: 0 20px;
+    }
+
+    .Landing-Page-Content-Div-Heading{
+        font-size:33px;
+    }
+
+    .Landing-Page-Common-Para{
+        text-align:center;
+    }
+
+    .Landing-Page-Content-Div-Heading:after{
+        width:12px;
+    }
+    /*Common-css End*/
+
+    /*Beyond-classroom-mobile-css Start*/
+
+    .beyond-classroom-column{
+        padding:50px 5px;
+        margin-top:0;
+    }
+
+    .beyond-classroom-column .Landing-Page-Wrapper{
+        margin-top:0;
+    }
+
+    .beyond-classroom-header-image{
+        height:150px;
+    }
+
+    .beyond-classroom-header-image-text{
+        font-size:58px;
+        text-align:center;
+        line-height:1;
+        bottom:-2em;
+    }
+
+    .beyond-classroom-header-text{
+        bottom:-7em;
+        width:100%;
+        text-align:center;
+    }
+
+    .beyond-classroom-header-image-and-text:after{
+        bottom:-9em;
+    }
+    .para-below-header-image {
+        margin-top: 10em;
+    }
+
+    .grades-location-wrapper{
+        flex-wrap:wrap;
+    }
+
+    .grades-location-div{
+        flex-basis:50%;
+    }
+
+    .grades-location-div:nth-child(3){
+        margin-top:3em;
+    }
+
+    .Landing-Page-Wrapper .beyond-heading-padding{
+        margin-top:0;
+        padding-top:2em
+    }
+
+    .beyond-classroom-checkbox-content-div{
+        padding-left:0;
+    }
+
+
+    .beyond-classroom-youtube-video-div > h3 {
+        padding: 15px 10px;
+    }
+
+    .beyond-classroom-please-note{
+        margin:25px 0 ;
+    }
+
+    .beyond-classroom-itinerary-image-wrapper .beyond-classroom-heading-div{
+        margin-top:0;
+        padding-top:1em;
+    }
+
+    .beyond-classroom-itinerary-image-wrapper {
+        padding: 0 10px;
+    }
+
+    .beyond-classroom-itinerary-image-div {
+        padding: 0;
+    }
+
+    .beyond-classroom-team-building-image-wrapper{
+        padding:30px 10px;
+    }
+
+    .beyond-classroom-team-building-image-wrapper .beyond-classroom-heading-div >h2{
+        padding:10px 30px 10px 30px;
+    }
+    .beyond-classroom-other-div > p{
+        padding:15px;
+    }
+
+    .beyond-classroom-other-div .beyond-classroom-comman-para-bold{
+        padding:15px;
+    }
+
+    .beyond-classroom-why-bikat-image-wrapper{
+        padding:0 10px;
+    }
+
+    .beyond-classroom-last-div-review-wrapper{
+        padding:0 20px;
+    }
+
+    .beyond-classroom-last-div-review-text{
+        text-align:center;
+    }
+
+    .beyond-classroom-review-user-name {
+        text-align: center;
+    }
+
+    .beyond-classroom-review-school-name {
+        text-align: center;
+    }
+
+    .beyond-classroom-review-margin-padding{
+        margin:0;
+        padding:10px;        
+    }
+
+    .beyond-classroom-review-by-user-wrapper{
+        padding:10px;
+        margin-top:40px;
+    }
+
+    .beyond-classroom-review-by-user-div {
+        flex-basis: 100%;
+        margin-bottom:6em;
+    }
+
+    .beyond-classroom-review-by-user-div:nth-child(3){
+         margin-bottom:5em;
+    }
+
+    .beyond-classroom-review-by-user-div:nth-child(4){
+         margin-bottom:3em;
+    }
+    /*Beyond-classroom-mobile-css End*/
+    /*DIT-css mobile start*/
+    .DIY-container .beyond-classroom-column .Landing-Page-Wrapper {
+        padding: 0 20px;
+        padding-top: 70px;
+    }
+
+    .diy-div-1-main-heading{
+        margin-bottom:40px;
+    }
+
+    .diy-div-1-sub-heading {
+        padding: 4px 40px;
+        border-radius: 50px;
+    }
+
+    .diy-div-1-img {
+        height: 550px;
+    }
+
+    .diy-div-1-img-caption{
+        padding: 4px 16px;
+        border-radius:50px;
+        font-size:17px;
+    }
+
+    .diy-div-2-wrapper .Landing-Page-Content-Div-Heading {
+        font-size: 38px;
+        padding: 10px 20px 10px 30px;
+    }
+
+    .diy-div-2-img-wrapper{
+        flex-direction:column;
+        margin-bottom:80px;
+    }
+
+    .diy-div-2-img{
+        width:100%;
+        height:320px;
+        margin-bottom:30px;
+    }
+    .diy-div-2-other-img{
+        width:100%;
+        height:400px;
+        margin-bottom:110px;
+    }
+
+    .diy-div-3-wrapper .Landing-Page-Content-Div-Heading {
+        font-size: 38px;
+    }
+
+    .diy-div-3-para-bold{
+        margin-bottom:85px;
+    }
+
+    .diy-div-3-img{
+        height:1700px;
+        margin-bottom:110px;
+    }
+
+    .diy-div-4-wrapper .Landing-Page-Content-Div-Heading {
+        font-size: 38px;
+    }
+
+    .diy-div-4-wrapper .Landing-Page-Common-Para{
+        margin-bottom:90px;
+    }
+
+    .diy-div-4-img {
+        height: 510px;
+        margin-bottom: 110px;
+    }
+
+    .diy-div-5-wrapper .Landing-Page-Content-Div-Heading {
+        font-size: 38px;
+    }
+    .diy-div-5-wrapper .landing-page-common-para-bold{
+        margin-bottom:50px;
+    }
+
+    .diy-div-5-eligibility-div-heading{
+        width:100%;
+        justify-content:center;
+    }
+
+    .diy-div-5-eligibility-div-content {
+        padding: 30px 20px;
+    }
+
+    .DIY-container .beyond-classroom-column{
+        padding-bottom:100px;
+    }
+
+    .diy-div-6-wrapper .Landing-Page-Content-Div-Heading {
+        font-size: 38px;
+    }
+
+    /*DIY-css mobile End*/
+
+    /*winter-sale-mobile-css start*/
+
+    .winter-sale-container .beyond-classroom-column{
+        padding:70px 5px;
+    }
+
+    .winter-sale-div-1-img{
+        width:100%;
+    }
+
+    .winter-sale-main-heading{
+        font-size:45px;
+        margin-top:75px;
+    }
+
+    .winter-sale-main-heading:after{
+        bottom:-8%;
+    }
+
+    .winter-sale-div-2-explore-btn-content{
+        font-size:18px;
+    }
+    .winter-sale-container .beyond-classroom-column .Landing-Page-Wrapper {
+        padding: 10px;
+    }
+
+    .winter-sale-div-2-img {
+        height: 210px;
+        margin-bottom: 2em;
+    }
+
+    .color-div-left > div {
+        width: 60px;
+    }
+
+    .color-div-right > div {
+        width: 60px;
+    }
+
+    .color-div-content .winter-sale-div-2-sub-heading {
+        padding: 0 15px;
+    }
+
+    .contact-and-whatsapp-image {
+        padding-top: 10px;
+    }
+
+    .phone-number {
+        font-size: 17px;
+    }
+
+    .winter-sale-div-3-wrapper .winter-sale-common-para-bold{
+        margin-top:3em;
+    }
+
+    .contact-and-whatsapp-div{
+        display:block;
+        margin-bottom:0px;
+        width:100%;
+    }
+    /*winter-sale-mobile-css end*/
+}
+
+@media screen and (min-width:320px) and (max-width:400px) {
+    .winter-sale-div-1-img-caption-wrapper {
+        padding: 10px 50px 21px 47px;
+    }
+    .winter-sale-div-1-img-caption-wrapper .winter-img-caption-bold{
+        font-size:18px;
+    }
+
+    .winter-sale-div-1-img-caption-wrapper .winter-img-caption-regular {
+        font-size:18px;
+    }
+
+        .winter-sale-div-1-img-caption-wrapper .winter-sale-div-1-offer {            
+            left: 37px;
+            font-size:27px;
+        }
+
+    .winter-sale-div-1-img-caption-wrapper{
+        margin-top:20px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    .Kayaking-Course-Content-Wrapper {
+        padding: 0 40px;
+    }
+
+    .similar-adventures-div {
+        /*width: 46%;*/
+        /*margin-right:20px;*/
+        margin-bottom: 2em;
+    }
+
+    .similar-adventures-wrapper {
+        flex-wrap: wrap;
+        margin-top: 4em;
+    }
+
+    /*DIY-css tablet start*/
+    .DIY-container .beyond-classroom-column .Landing-Page-Wrapper {
+        padding: 0 30px;
+    }
+
+    .DIY-container .beyond-classroom-column {
+        margin-top: 0;
+        padding: 30px;
+        padding-bottom: 100px;
+    }
+
+    .diy-div-1-sub-heading {
+        padding: 4px 40px;
+        border-radius: 50px;
+    }
+
+    .diy-div-1-img {
+        height: 750px;
+    }
+
+    .diy-div-1-img-caption {
+        padding: 4px 16px;
+    }
+
+    .diy-div-2-wrapper .Landing-Page-Content-Div-Heading {
+        font-size: 38px;
+        padding: 10px 20px 10px 30px;
+    }
+
+    .diy-div-2-img-wrapper {
+        flex-direction: column;
+    }
+
+    .diy-div-2-img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .diy-div-2-other-img {
+        width: 100%;
+        height: 600px;
+        margin-bottom: 110px;
+    }
+
+    .diy-div-3-para-bold {
+        margin-bottom: 85px;
+    }
+
+    .diy-div-3-img {
+        height: 100%;
+        margin-bottom: 110px;
+    }
+
+    .diy-div-4-img {
+        height: 100%;
+        margin-bottom: 110px;
+    }
+
+    .diy-div-5-wrapper .landing-page-common-para-bold {
+        margin-bottom: 50px;
+    }
+
+    .diy-div-5-eligibility-div-heading {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .diy-div-5-eligibility-div-content {
+        padding: 30px 20px;
+    }
+    /*DIY-css tablet end*/
+
+    /*Winter-sale-tablet-css Start*/
+    .winter-sale-container .beyond-classroom-column{
+        margin-top:0;
+        padding:80px 20px;
+    }
+    .winter-sale-container .beyond-classroom-column .Landing-Page-Wrapper{
+        padding:0 30px;
+    }
+
+    .winter-sale-div-1-img{
+        width:100%;
+    }
+
+    .winter-sale-div-1-img-caption-wrapper {
+        padding: 20px 80px 35px 80px;
+    }
+
+    .winter-sale-div-1-offer{
+        left:95px;
+    }
+
+    .winter-sale-div-3-wrapper .color-div-content .winter-sale-div-2-sub-heading{
+        padding:0 20px;
+    }
+
+    .winter-sale-div-2-img{
+        height:380px;
+    }
+
+    .winter-sale-div-3-wrapper .winter-sale-common-para-bold {
+        margin-top: 2em;
+    }
+    /*Winter-sale-tablet-css End*/
+
+    /*Beyond-classroom-tablet-css Start*/
+    .beyond-classroom-column{
+        padding:30px;
+    }
+
+    .beyond-classroom-column .Landing-Page-Wrapper{
+        padding:0 30px;
+    }
+
+    .beyond-classroom-header-image-and-text{
+        text-align:center;
+    }
+
+    .beyond-classroom-header-image-text{
+        bottom:-35%;
+        line-height:1;
+    }
+
+    .beyond-classroom-header-text{
+        bottom:-50%;
+    }
+
+    .beyond-classroom-header-image-and-text:after{
+        bottom:-50%;
+    }
+
+    .para-below-header-image {
+        margin-top: 10em;
+    }
+
+    .beyond-classroom-checkbox-content-div{
+        padding-left:20px;
+    }
+
+    .beyond-classroom-review-margin-padding {
+        margin: 0;
+        padding-bottom: 4em;
+    }
+
+    .beyond-classroom-review-by-user-wrapper{
+        padding:0 20px;
+        margin-top:40px;
+    }
+
+    .Career-Page-Div-Content-Row .Career-Page-Div-Content-Column:nth-child(3) {
+        text-align: center;
+    }
+
+    .beyond-classroom-last-div-review-wrapper{
+        padding:0 60px;
+    }
+    /*Beyond-classroom-tablet-css End*/
+
+    .forerunner-content-div-3-above-yt-video-wrapper{
+        padding-left:7%
+    }
+
+    .forerunner-content-div-3-extra-para > p{
+        padding-left:0;
+    }
+
+    .career-column{
+        padding:0 40px !important;
+    }
+
+    .col-md-4.Career-Page-Div-Content-Column {        
+        display: flex;
+        justify-content:space-between;
+    }
+
+    /*.Career-Page-Div-Content{
+        flex-basis:70%;
+    }*/
+
+}
+
+@media screen and (min-width:769px) and (max-width:991px){
+    
+    .similar-adventures-wrapper {
+        flex-wrap: wrap;
+        margin-top: 2em;
+    }
+
+    .similar-adventures-div {
+        /*width: 46%;*/
+        margin-right: 20px;
+        margin-bottom: 4em;
+    }
+
+    .DIY-container .beyond-classroom-column .Landing-Page-Wrapper {
+        padding: 0 50px;
+    }
+
+    .diy-div-1-sub-heading {
+        padding: 4px 40px;
+        border-radius: 50px;
+    }
+
+    .diy-div-1-img {
+        height: 550px;
+    }
+
+    .diy-div-1-img-caption {
+        padding: 4px 16px;
+    }
+
+    .diy-div-2-wrapper .Landing-Page-Content-Div-Heading {
+        font-size: 38px;
+        padding: 10px 20px 10px 30px;
+    }
+
+    .diy-div-2-img-wrapper {
+        flex-direction: column;
+    }
+
+    .diy-div-2-img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .diy-div-2-other-img {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 110px;
+    }
+
+    .diy-div-3-para-bold {
+        margin-bottom: 85px;
+    }
+
+    .diy-div-3-img {
+        height: 1700px;
+        margin-bottom: 110px;
+    }
+
+    .diy-div-4-img {
+        height: 510px;
+        margin-bottom: 110px;
+    }
+
+    .diy-div-5-wrapper .landing-page-common-para-bold {
+        margin-bottom: 50px;
+    }
+
+    .diy-div-5-eligibility-div-heading {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .diy-div-5-eligibility-div-content {
+        padding: 30px 20px;
+    }
+
+    .DIY-container .beyond-classroom-column {
+        padding-bottom: 100px;
+    }
+    .career-column{
+        padding: 0 70px !important;
+    }
+}
+
+.row.upper-footer{
+    display:none;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.snowflake {
+    position: fixed;
+    background-color: lightgrey;
+    box-shadow: 0 0 4px 2px darkgrey ;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 40%;
+    width: 7px;
+    height: 7px;    
+    opacity:.6;
+}
+
+
